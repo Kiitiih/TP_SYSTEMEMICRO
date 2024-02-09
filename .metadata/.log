@@ -1,0 +1,760 @@
+!SESSION 2024-02-09 08:43:10.784 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-09 08:43:46.238
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-09 08:43:46.239
+!MESSAGE Log4j2 initialized with config file /home/eleve/Documents/TP_SYSTEMEMICRO/.metadata/.log4j2.xml
+
+!ENTRY org.eclipse.urischeme 4 0 2024-02-09 08:43:46.882
+!MESSAGE Cannot run program "xdg-mime": error=2, Aucun fichier ou dossier de ce type
+!STACK 0
+java.io.IOException: Cannot run program "xdg-mime": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:36)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getRegisteredDesktopFileForScheme(RegistrationLinux.java:145)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.determineHandlerLocation(RegistrationLinux.java:87)
+	at org.eclipse.urischeme.internal.registration.RegistrationLinux.getSchemesInformation(RegistrationLinux.java:76)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 7 more
+
+!ENTRY com.st.stm32cube.ide.common.ui 4 0 2024-02-09 08:43:47.137
+!MESSAGE Failed to open URL: file:/app/stm32cubeide/plugins/com.st.stm32cube.ide.documentation_2.0.500.202302221339/docs/DM00603738.pdf
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-09 08:43:48.335
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:48.371
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:48.373
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:48.375
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:48.377
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:49.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:49.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:49.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:49.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:50.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:50.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:50.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:50.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:51.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:51.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:51.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:51.363
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:52.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:52.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:52.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:52.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:53.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:53.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:53.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:53.363
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:54.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:54.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:54.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:54.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:55.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:55.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:55.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:55.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:56.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:56.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:56.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:56.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:57.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:57.360
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:57.361
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2024-02-09 08:43:57.362
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:85)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:69)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:158)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, Aucun fichier ou dossier de ce type
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-09 08:46:46.526
+!MESSAGE Indexed 'digital_filter' (20 sources, 81 headers) in 2.17 sec: 4,278 declarations; 23,798 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0071%)
