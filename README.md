@@ -27,3 +27,21 @@ SOIC (Small Outline Integrated Circuit) : pin spacing 1.27mm qui sortent des deu
 
 SOT-223 (Small Outline Transistor) : souvent utlisé pour les transistors et les diodes et souvent
 3 pins
+
+
+--------------------------------------------------------------------------------------------------------
+3.1. Activation des LL drivers
+
+2. Les différences observées c'est qu'on est plus proche du matériel donc il fut connaitre son microC donc l'intérêt c'est donne des accès direct au reagistre et donc il consomme moins en mémoire Flash et en mémoire dynamique
+
+
+3.2 LED simple
+2. Le prescaler vaut 255.
+On a une freq de 32MHz sur les Timer et on veut une résolution sur 8 bits (on compte donc jusqu'à 255)
+On fait 32MHz / 255 = 125,5MHz 
+Donc prescaler = 125,5MHz / freq (1MHz)= 125
+Avec counter period pour le PWM = 255
+
+3. 
+
+
