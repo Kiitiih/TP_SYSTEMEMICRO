@@ -44,6 +44,6 @@ Avec counter period pour le PWM = 255
 
 3.3 LED avec timer
 
-La routine d'interruption se situe dans le fichier stm32L0xx_it.c. Ce qu'il manque par rapport au code genéré par la HAL, c'est la mise à 0 du flag d'interruption. C'est dramatique car si il ne repasse pas à 0, on ne sort jamais de l'interruption. 
+La routine d'interruption se situe dans le fichier stm32L0xx_it.c. Ce qu'il manque par rapport au code genéré par la HAL, c'est la mise à 0 du flag d'interruption. C'est dramatique car si il ne repasse pas à 0, on ne sort jamais de l'interruption. Pour mettre le flag à 0, on utilise la fonction LL_TIM_ClearFlag_UPDATE(TIM21);
 
 
