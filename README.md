@@ -1,3 +1,7 @@
+CAMARA - DEMAN
+3DN - TP1
+---------------------------------------------------------------------------------------------------
+
 rate baud 115200 db
 
 13. PB9 est relié à la masse pour faire le boot_flash et donc il faut une resistance de pull-down
